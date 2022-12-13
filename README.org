@@ -14,5 +14,9 @@ I am running Raspbian OS - bullseye aarch64, with 8GB ram.
 - Clone this repository =git clone https://github.com/hegde-atri/rpi4-things script=
 - Execute the ~rpi4~ executable in the directory. =cd script && ./rpi4=
 
+* What the script does
 
-  testing inline code blocks
+** apt-update && apt-upgrade
+#+begin_src bash
+apt update && apt upgrade -y
+#+end_src
