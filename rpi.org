@@ -1,0 +1,17 @@
+#+title: rpi4 installer
+#+author: Atri Hegde
+#+description: A simple script to install my preference of services on a rpi4.
+#+property: header-args :tangle rpi4
+#+auto_tangle: t
+
+My rpi4 server configuration. Planning to write this as a kubernetes cluster since most of my services run as containers.
+
+#+begin_src sh :shebang #!/bin/sh
+echo "work in progress"
+#+end_src
+
+* Update system
+
+* SSH config
+
+* Setup kubernetes
